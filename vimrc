@@ -95,4 +95,3 @@
       autocmd BufRead *.java,*.c,*.h,*.cc set formatoptions=ctroq cindent comments=sr:/**,mb:*,elx:*/,sr:/*,mb:*,elx:*/,://
 
       set clipboard=unnamed
-      call rainbow_parenthsis#Activate()
