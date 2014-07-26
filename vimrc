@@ -6,11 +6,6 @@
 
       filetype plugin on    " Required for NERD_commenter
 
-      "Vundle setup
-      "set rtp+=~/.vim/bundle/vundle/
-      "call vundle#rc()
-      "Bundle 'gmarik/vundle'
-      
       filetype plugin indent on
 
       set nu
@@ -79,10 +74,10 @@
       nnoremap <leader>Y ggVG"+yu<c-r>zz
 
       " Insert liquid tag
-      nnoremap <leader>[ i{{ }}<Esc>2hi 
+      nnoremap <leader>} i{{ }}<Esc>2hi 
       nnoremap <leader>] a{{ }}<Esc>2hi 
       nnoremap <leader>{ i{% %}<Esc>2hi 
-      nnoremap <leader>} a{% %}<Esc>2hi 
+      nnoremap <leader>{ a{% %}<Esc>2hi 
 
 
       syntax on
