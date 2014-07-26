@@ -1,4 +1,3 @@
-      "Vundle setup
       set nocompatible      " Don't force vi compatibility
       filetype on         " This was off and I can't remember why 
                             "" turning it back on to see if it breaks
@@ -6,9 +5,11 @@
       color tomorrow-night
 
       filetype plugin on    " Required for NERD_commenter
-      set rtp+=~/.vim/bundle/vundle/
-      call vundle#rc()
-      Bundle 'gmarik/vundle'
+
+      "Vundle setup
+      "set rtp+=~/.vim/bundle/vundle/
+      "call vundle#rc()
+      "Bundle 'gmarik/vundle'
       
       filetype plugin indent on
 
