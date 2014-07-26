@@ -69,6 +69,7 @@
 
       " Open NERDTree
       nnoremap <leader>t :NERDTree<cr>
+      let NERDTreeQuitOnOpen=1
 
       "Make Vim use standard RegEx 
       nnoremap / /\v
