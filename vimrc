@@ -74,10 +74,10 @@
       nnoremap <leader>Y ggVG"+yu<c-r>zz
 
       " Insert liquid tag
-      nnoremap <leader>} i{{ }}<Esc>2hi 
-      nnoremap <leader>] a{{ }}<Esc>2hi 
-      nnoremap <leader>{ i{% %}<Esc>2hi 
-      nnoremap <leader>{ a{% %}<Esc>2hi 
+      nnoremap <leader>{ i{{ }}<Esc>2hi 
+      nnoremap <leader>[ a{{ }}<Esc>2hi 
+      nnoremap <leader>} i{% %}<Esc>2hi 
+      nnoremap <leader>] a{% %}<Esc>2hi 
 
 
       syntax on
