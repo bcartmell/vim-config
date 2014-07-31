@@ -1,6 +1,10 @@
       set nocompatible      " Don't force vi compatibility
-      filetype on         " This was off and I can't remember why 
+      filetype on           " This was off and I can't remember why 
                             "" turning it back on to see if it breaks
+
+      " Initialize Pathogen 
+      execute pathogen#infect()
+
 
       color tomorrow-night
 
@@ -49,9 +53,14 @@
 
       set gdefault          " applies substitutions globally on lines by default
 
-      set incsearch
-      set showmatch
+      set showmatch         
       set hlsearch
+
+      set iskeyword-=.      " '.' is an end-of-word designator
+      set iskeyword-=-      " '-' is an end-of-word designator
+      set iskeyword-=_      " '_' is an end-of-word designator
+
+
 
       " Clear search highlighting with <leader><space>
       nnoremap <leader><space> :noh<cr> 
