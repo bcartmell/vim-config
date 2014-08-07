@@ -56,9 +56,9 @@
       set showmatch         
       set hlsearch
 
-      set iskeyword-=.      " '.' is an end-of-word designator
-      set iskeyword-=-      " '-' is an end-of-word designator
-      set iskeyword-=_      " '_' is an end-of-word designator
+      set iskeyword-=.     " '.' is an end-of-word designator
+      set iskeyword+=-     " '-' is not an end-of-word designator
+      set iskeyword+=_     " '_' is not an end-of-word designator
 
 
 
