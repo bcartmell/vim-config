@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/home/brady/playground'
 let g:netrw_dirhist_2='/home/brady/playground/sandbox'
 let g:netrw_dirhist_3='/home/brady/playground/sandbox/canvas'
 let g:netrw_dirhist_4='/home/brady/playground/aqualog'
 let g:netrw_dirhist_5='/home/brady/playground/aqualog/js'
+let g:netrw_dirhist_6='/Users/brady/Registria/registria/lib/registria/liquids'
