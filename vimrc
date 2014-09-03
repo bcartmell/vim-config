@@ -100,3 +100,7 @@
       autocmd BufRead *.java,*.c,*.h,*.cc set formatoptions=ctroq cindent comments=sr:/**,mb:*,elx:*/,sr:/*,mb:*,elx:*/,://
 
       set clipboard=unnamed
+
+      " Airline(fancy status-bar) settings
+      "let g:airline_left_sep = '|'
+      "let g:airline_right_sep = '|'
