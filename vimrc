@@ -57,7 +57,7 @@
       set hlsearch
 
       set iskeyword-=.     " '.' is an end-of-word designator
-      set iskeyword+=-     " '-' is not an end-of-word designator
+      "set iskeyword+=-     " '-' is not an end-of-word designator
       set iskeyword+=_     " '_' is not an end-of-word designator
 
 
@@ -103,5 +103,5 @@
 
       " Airline(fancy status-bar) settings
       set laststatus=2 " fixes Airline Bug
-      "let g:airline_left_sep = '|'
-      "let g:airline_right_sep = '|'
+      let g:airline_left_sep = ''
+      let g:airline_right_sep = ''
