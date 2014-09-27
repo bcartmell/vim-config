@@ -1,3 +1,5 @@
+      "  Reminders;  
+      "  :call JsBeutify() to beutify JS
       set nocompatible      " Don't force vi compatibility
       filetype on           " This was off and I can't remember why 
                             "" turning it back on to see if it breaks
@@ -60,7 +62,7 @@
       set hlsearch
 
       set iskeyword-=.     " '.' is an end-of-word designator
-      set iskeyword+=-     " '-' is not an end-of-word designator
+      "set iskeyword+=-     " '-' is not an end-of-word designator
       set iskeyword+=_     " '_' is not an end-of-word designator
 
 
@@ -106,5 +108,5 @@
 
       " Airline(fancy status-bar) settings
       set laststatus=2 " fixes Airline Bug
-      "let g:airline_left_sep = '|'
-      "let g:airline_right_sep = '|'
+      let g:airline_left_sep = ''
+      let g:airline_right_sep = ''
