@@ -15,6 +15,9 @@
       set nu
       set ffs=unix          " Set Unix file format to prevent line-return characters
       behave xterm          " Alternative is 'mswin'
+
+      set backupdir=~/.backups " Store backup files out of the way
+      set directory=~/.backups " also swap files
       
       set encoding=utf-8    " Set UTF-8 as default encoding
       set mouse=a           " Enable mouse support
@@ -34,7 +37,7 @@
       set softtabstop=2
       set shiftround        " round to nearest tab
 
-      set scrolloff=3       " begin scrolling before cursor reaches the edge
+      set scrolloff=2       " begin scrolling before cursor reaches the edge
       set sidescrolloff=5   " also for side scrolling
 
       set showcmd           " show my commands
