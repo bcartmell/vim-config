@@ -113,3 +113,4 @@
 
 
       command Q q!
+      command E e!
