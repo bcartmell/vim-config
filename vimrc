@@ -85,7 +85,7 @@
       vnoremap / /\v
 
       " copy to Clipboard
-      nnoremap <leader>Y ggVG"+yu<c-r>zz
+      nnoremap <leader>Y maggVG"+y`azz
 
       " Insert liquid tag
       nnoremap <leader>{ i{{ }}<Esc>2hi 
@@ -111,6 +111,6 @@
       let g:airline_left_sep = ''
       let g:airline_right_sep = ''
 
-
-      command Q q!
       command E e!
+      command Q q!
+
