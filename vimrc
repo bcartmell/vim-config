@@ -93,6 +93,7 @@
       nnoremap <leader>} i{% %}<Esc>2hi 
       nnoremap <leader>] a{% %}<Esc>2hi 
 
+      nnoremap <leader>D ggVGd
 
       syntax on
       "set comments=sl:/**,mb:\ *,exl:\ */,sr:/*,mb:*,exl:*/,://
