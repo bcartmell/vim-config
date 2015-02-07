@@ -111,6 +111,7 @@
       set laststatus=2 " fixes Airline Bug
       let g:airline_left_sep = ''
       let g:airline_right_sep = ''
+      set fillchars+=stl:\ ,stlnc:\
 
       command E e!
       command Q q!
