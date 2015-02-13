@@ -65,8 +65,6 @@
       "set iskeyword+=-     " '-' is not an end-of-word designator
       set iskeyword+=_     " '_' is not an end-of-word designator
 
-
-
       " Clear search highlighting with <leader><space>
       nnoremap <leader><space> :noh<cr> 
 
@@ -85,7 +83,7 @@
       vnoremap / /\v
 
       " copy to Clipboard
-      nnoremap <leader>Y maggVG"+y`azz
+      nnoremap <leader>Y mqggVG"+y`qzz
 
       " Insert liquid tag
       nnoremap <leader>{ i{{ }}<Esc>2hi 
@@ -93,7 +91,11 @@
       nnoremap <leader>} i{% %}<Esc>2hi 
       nnoremap <leader>] a{% %}<Esc>2hi 
 
+      " Delete file contents
       nnoremap <leader>D ggVGd
+
+      " Format file 
+      nnoremap <leader>= mqgg=G`q
 
       syntax on
       "set comments=sl:/**,mb:\ *,exl:\ */,sr:/*,mb:*,exl:*/,://
