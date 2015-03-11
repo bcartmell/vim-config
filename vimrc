@@ -116,4 +116,5 @@
       set fillchars+=stl:\ ,stlnc:\
 
       command Q q!
+      cnoreabbrev E e!
 
