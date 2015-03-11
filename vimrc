@@ -115,6 +115,5 @@
       let g:airline_right_sep = ''
       set fillchars+=stl:\ ,stlnc:\
 
-      command E e!
       command Q q!
 
