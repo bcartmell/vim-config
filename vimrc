@@ -20,6 +20,7 @@
 
       set backupdir=~/.backups " Store backup files out of the way
       set directory=~/.backups " also swap files
+      set shortmess+=A      " A don't give the "ATTENTION" message when an existing swap file is found
       
       set encoding=utf-8    " Set UTF-8 as default encoding
       set mouse=a           " Enable mouse support
