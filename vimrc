@@ -86,6 +86,9 @@
       " copy to Clipboard
       nnoremap <leader>Y mqggVG"+y`qzz
 
+      " copy whole file to register
+      nnoremap <leader>y mqggVGy`qzz
+
       " Insert liquid tag
       nnoremap <leader>{ i{{ }}<Esc>2hi 
       nnoremap <leader>[ a{{ }}<Esc>2hi 
