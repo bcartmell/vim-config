@@ -2,7 +2,9 @@
       "  :call JsBeutify() to beutify JS
       set nocompatible      " Don't force vi compatibility
       filetype on           " This was off and I can't remember why 
-                            "" turning it back on to see if it breaks
+                            " turning it back on to see if it breaks
+
+      au BufRead,BufNewFile *.html set filetype=liquid "use 'liquid' filetype for HTML files
 
       " Initialize Pathogen 
       execute pathogen#infect()
