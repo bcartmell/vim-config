@@ -4,7 +4,9 @@
       filetype on           " This was off and I can't remember why 
                             " turning it back on to see if it breaks
 
-      "au BufRead,BufNewFile *.html set filetype=liquid "use 'liquid' filetype for HTML files
+
+      "use 'html' filetype for .hbs files
+      au BufRead,BufNewFile *.hbs set filetype=html 
 
       " Initialize Pathogen 
       execute pathogen#infect()
