@@ -84,9 +84,9 @@
       let NERDTreeQuitOnOpen=1
 
       " Switch filtypes
-      nnoremap <leader>L :set filtype=liquid
-      nnoremap <leader>H :set filtype=html
-      nnoremap <leader>J :set filtype=javascript
+      nnoremap <leader>L :set filetype=liquid<cr>
+      nnoremap <leader>H :set filetype=html<cr>
+      nnoremap <leader>J :set filetype=javascript<cr>
 
      
 
