@@ -83,6 +83,13 @@
       nnoremap <leader>t :NERDTree<cr>
       let NERDTreeQuitOnOpen=1
 
+      " Switch filtypes
+      nnoremap <leader>L :set filtype=liquid
+      nnoremap <leader>H :set filtype=html
+      nnoremap <leader>J :set filtype=javascript
+
+     
+
       "Make Vim use standard RegEx 
       nnoremap / /\v
       vnoremap / /\v
