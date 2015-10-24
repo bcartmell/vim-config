@@ -2,6 +2,6 @@ Vim configuration.
 
 After cloning, run: 
 
-
-$ git submodule update --init 
-$ ln -s ~/.vim/vimrc ~/.vimrc
+$ ln -s ~/.vim/vimrc ~/.vimrc   \n
+$ git submodule init            \n
+$ git submodule update          \n
