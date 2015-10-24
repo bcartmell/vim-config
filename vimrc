@@ -143,3 +143,7 @@
       command Q q!
       cnoreabbrev E e!
 
+      " Use 'W' to invoke sudo escalation after file is Opened. 
+      " Useful for when sudo if forgotten when opening a file,
+      " but mostly so that I can use my own users .vimrc
+      command W sil exec 'write !sudo tee ' . shellescape(@%, 1) . ' >/dev/null'
