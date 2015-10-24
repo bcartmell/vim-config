@@ -1,3 +1,7 @@
 Vim configuration.
 
-Don't forget to symlink ./vimrc to ~/.vimrc!
+After cloning, run: 
+
+
+$ git submodule update --init 
+$ ln -s ~/.vim/vimrc ~/.vimrc
