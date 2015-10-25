@@ -4,13 +4,11 @@
       filetype on           " This was off and I can't remember why 
                             " turning it back on to see if it breaks
 
-
       "use 'html' filetype for .hbs files
       au BufRead,BufNewFile *.hbs set filetype=html 
 
       " Initialize Pathogen 
       execute pathogen#infect()
-
 
       color tomorrow-night
 
