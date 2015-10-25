@@ -135,10 +135,10 @@
       set clipboard=unnamed
 
       " Airline(fancy status-bar) settings
-      set laststatus=2 " fixes Airline Bug
-      let g:airline_left_sep = ''
-      let g:airline_right_sep = ''
-      set fillchars+=stl:\ ,stlnc:\
+      " set laststatus=2 " fixes Airline Bug
+      " let g:airline_left_sep = ''
+      " et g:airline_right_sep = ''
+      " set fillchars+=stl:\ ,stlnc:\
 
       command Q q!
       cnoreabbrev E e!
