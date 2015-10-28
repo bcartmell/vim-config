@@ -92,11 +92,11 @@
       nnoremap / /\v
       vnoremap / /\v
 
-      " copy to Clipboard
-      nnoremap <leader>Y mqggVG"+y`qzz
+      " copy selection to Clipboard
+      nnoremap <leader>y "+y
 
       " copy whole file to register
-      nnoremap <leader>y mqggVGy`qzz
+      nnoremap <leader>Y mqggVGy`qzz
 
       " Insert liquid tag
       nnoremap <leader>{ i{{ }}<Esc>2hi 
