@@ -96,7 +96,7 @@
       nnoremap <leader>y "+y
 
       " copy whole file to register
-      nnoremap <leader>Y mqggVGy`qzz
+      nnoremap <leader>Y mqggVG"+y`qzz
 
       " Insert liquid tag
       nnoremap <leader>{ i{{ }}<Esc>2hi 
