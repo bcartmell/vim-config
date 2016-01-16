@@ -132,6 +132,10 @@
 
       set clipboard=unnamed
 
+
+      " Tells NerdCommenter to add a space after the beginning of comments
+      let NERDSpaceDelims=1
+
       " Airline(fancy status-bar) settings
       " set laststatus=2 " fixes Airline Bug
       " let g:airline_left_sep = ''
@@ -145,7 +149,6 @@
       " Useful for when sudo if forgotten when opening a file,
       " but mostly so that I can use my own users .vimrc
       command W sil exec 'write !sudo tee ' . shellescape(@%, 1) . ' >/dev/null'
-
 
       " When an autocomplete menu is displayed, this should go ahead and abort
       " the menu and insert a newline.  This is great because I have autocmplete
