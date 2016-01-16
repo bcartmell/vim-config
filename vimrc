@@ -13,7 +13,6 @@
       color tomorrow-night
 
       filetype plugin on    " Required for NERD_commenter
-
       filetype plugin indent on
 
       set nu
@@ -50,6 +49,7 @@
       if exists("+colorcolumn")
         set colorcolumn=81  " highlight column 81
       endif
+      set tw=81             " Automatically insert line-breaks when a line reaches 80 characters
 
       set cursorline
 
