@@ -149,9 +149,3 @@
       " Useful for when sudo if forgotten when opening a file,
       " but mostly so that I can use my own users .vimrc
       command W sil exec 'write !sudo tee ' . shellescape(@%, 1) . ' >/dev/null'
-
-      " When an autocomplete menu is displayed, this should go ahead and abort
-      " the menu and insert a newline.  This is great because I have autocmplete
-      " menus display automatically, and usually when I press Enter I want a line
-      " break, if I want to use autocomplete, I can still you ctrl+N/ctrl+P
-      inoremap <expr> <CR> pumvisible() ? '<C-e><CR>' : '<CR>'
