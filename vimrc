@@ -86,8 +86,6 @@
       nnoremap <leader>H :set filetype=html<cr>
       nnoremap <leader>J :set filetype=javascript<cr>
 
-     
-
       "Make Vim use standard RegEx 
       nnoremap / /\v
       vnoremap / /\v
@@ -95,8 +93,12 @@
       " copy selection to Clipboard
       nnoremap <leader>y "+y
 
-      " copy whole file to register
+      " copy whole file to system clipboard
       nnoremap <leader>Y mqggVG"+y`qzz
+
+      " paste from system clipboard
+      nnoremap <leader>p "+gp
+      nnoremap <leader>P "+gP
 
       " Insert liquid tag
       nnoremap <leader>{ i{{ }}<Esc>2hi 
