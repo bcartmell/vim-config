@@ -13,7 +13,6 @@
       color tomorrow-night
 
       filetype plugin on    " Required for NERD_commenter
-
       filetype plugin indent on
 
       set nu
@@ -50,6 +49,7 @@
       if exists("+colorcolumn")
         set colorcolumn=81  " highlight column 81
       endif
+      set tw=81             " Automatically insert line-breaks when a line reaches 80 characters
 
       set cursorline
 
@@ -133,6 +133,10 @@
       autocmd BufRead *.java,*.c,*.h,*.cc set formatoptions=ctroq cindent comments=sr:/**,mb:*,elx:*/,sr:/*,mb:*,elx:*/,://
 
       set clipboard=unnamed
+
+
+      " Tells NerdCommenter to add a space after the beginning of comments
+      let NERDSpaceDelims=1
 
       " Airline(fancy status-bar) settings
       " set laststatus=2 " fixes Airline Bug
