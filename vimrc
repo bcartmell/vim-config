@@ -68,6 +68,10 @@
       "set iskeyword+=-     " '-' is not an end-of-word designator
       set iskeyword+=_     " '_' is not an end-of-word designator
 
+      set guioptions-=m    " Turn off gui menu
+      set guioptions-=T    " Turn off gui Toolbar
+
+
       " Clear search highlighting with <leader><space>
       nnoremap <leader><space> :noh<cr> 
 
