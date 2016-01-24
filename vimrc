@@ -56,7 +56,7 @@
       set ignorecase        " make searching case-insensitive
       set smartcase         " Unless search string includes an uppercase letter
 
-      set spell             " Turn on spell checker
+      " set spell             " Turn on spell checker
       " set relativenumber    " Display line numbers relative to current line
 
       set gdefault          " applies substitutions globally on lines by default
