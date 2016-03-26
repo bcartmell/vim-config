@@ -6,6 +6,7 @@
 
       "use 'html' filetype for .hbs files
       au BufRead,BufNewFile *.hbs set filetype=html 
+      au BufRead,BufNewFile *.tag set filetype=html.css.javascript 
 
       " Initialize Pathogen 
       execute pathogen#infect()
@@ -127,6 +128,8 @@
       let g:syntastic_check_on_open = 1
       let g:syntastic_check_on_wq = 0
       let g:syntastic_javascript_checkers = ['eslint']
+
+      
 
       "set comments=sl:/**,mb:\ *,exl:\ */,sr:/*,mb:*,exl:*/,://
       
