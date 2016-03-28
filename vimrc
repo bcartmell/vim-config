@@ -50,7 +50,6 @@
       if exists("+colorcolumn")
         set colorcolumn=81  " highlight column 81
       endif
-      set tw=81             " Automatically insert line-breaks when a line reaches 80 characters
 
       set cursorline
 
