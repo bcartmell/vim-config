@@ -71,6 +71,15 @@
       set guioptions-=m    " Turn off gui menu
       set guioptions-=T    " Turn off gui Toolbar
 
+      function ToggleList() 
+        if (&list == 1) 
+          set nolist
+        else 
+          set list
+        endif
+      endfunction
+
+      nnoremap <leader>l :call ToggleList()<cr>
 
       " Clear search highlighting with <leader><space>
       nnoremap <leader><space> :noh<cr> 
