@@ -57,7 +57,7 @@
       set smartcase         " Unless search string includes an uppercase letter
 
       " set spell             " Turn on spell checker
-      " set relativenumber    " Display line numbers relative to current line
+      set relativenumber    " Display line numbers relative to current line
 
       set gdefault          " applies substitutions globally on lines by default
 
@@ -70,6 +70,11 @@
 
       set guioptions-=m    " Turn off gui menu
       set guioptions-=T    " Turn off gui Toolbar
+
+      if has("wildmenu")
+        set wildmenu
+        set wildmode=longest:list   " emulate bash autocomplete behavior
+      endif
 
       function ToggleList() 
         if (&list == 1) 
