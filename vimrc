@@ -51,6 +51,10 @@
         set colorcolumn=81  " highlight column 81
       endif
 
+      set nomodeline        " Guards against CVE-2007-2438 by ensuring modeline is disabled
+
+      set showtabline=2     " show tabline
+
       set cursorline
 
       set ignorecase        " make searching case-insensitive
@@ -64,9 +68,9 @@
       set showmatch         
       set hlsearch
 
-      set iskeyword-=.     " '.' is an end-of-word designator
-      "set iskeyword+=-     " '-' is not an end-of-word designator
-      set iskeyword+=_     " '_' is not an end-of-word designator
+      set iskeyword-=.     " '.' is not an end-of-word designator
+      set iskeyword+=-     " '-' is an end-of-word designator
+      set iskeyword+=_     " '_' is an end-of-word designator
 
       set guioptions-=m    " Turn off gui menu
       set guioptions-=T    " Turn off gui Toolbar
@@ -160,10 +164,10 @@
       let NERDSpaceDelims=1
 
       " Airline(fancy status-bar) settings
-      " set laststatus=2 " fixes Airline Bug
-      " let g:airline_left_sep = ''
-      " et g:airline_right_sep = ''
-      " set fillchars+=stl:\ ,stlnc:\
+      set laststatus=2 " fixes Airline Bug
+      let g:airline_left_sep = ''
+      let g:airline_right_sep = ''
+      set fillchars+=stl:\ ,stlnc:\
 
       command Q q!
       cnoreabbrev E e!
